@@ -1,11 +1,6 @@
-package Herencia;
-//!Lo que se realizo fue realizar una clase llamada Persona la cual tiene unos atributos que conforman a una persona en
-//!la cual tiene un metodo contructor pare poder crear objetos mediante una instancia.
+package Clases;
 
-/**
- * Clase llamada Personas.
- */
-public class UsuarioHerencia {
+public class usuario {
     /**
      * Atributos.
      */
@@ -23,7 +18,7 @@ public class UsuarioHerencia {
      * @param apellido_pa
      * @param apellido_ma
      */
-    public UsuarioHerencia(int id, int edad, String nombre, String apellido_pa, String apellido_ma) {
+    public usuario(int id, int edad, String nombre, String apellido_pa, String apellido_ma) {
         this.id = id;
         this.edad = edad;
         this.nombre = nombre;
