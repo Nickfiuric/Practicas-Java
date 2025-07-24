@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class EjemploLogin {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // Crea un objeto Scanner para leer la entrada del usuario (Desde consola)
 
         boolean usuarioValido = false;
         boolean contrasenaValida = false;
